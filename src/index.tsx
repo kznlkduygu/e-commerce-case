@@ -10,7 +10,6 @@ import {
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
-import "./sass/layout.scss";
 import "./sass/header.scss";
 import "./sass/card.scss";
 import "./sass/sort.scss";
