@@ -22,7 +22,7 @@ const dataFinder = (data: Item[], id?: string): Item | undefined => {
   return dataById;
 }
 
-const Detai: React.FC = () => {
+const ProductDetail: React.FC = () => {
   let { id } = useParams<{id: string}>();
   const { data } = useSelector((state: { data: DataState }) => state.data);
 
@@ -70,4 +70,4 @@ const Detai: React.FC = () => {
   );
 }
 
-export default Detai;
+export default ProductDetail;
